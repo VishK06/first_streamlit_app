@@ -29,3 +29,6 @@ my_cur.execute("SELECT * from FRUIT_LOAD_LIST")
 my_data_rows = my_cur.fetchall()
 streamlit.header("The Fruit Load List contains")
 streamlit.dataframe(my_data_rows)
+streamlit.text("Which fruit you would like to choose ?")
+
+my_cur.executes(" insert inot fruit load list values ('from streamlit')")
