@@ -31,4 +31,4 @@ streamlit.header("The Fruit Load List contains")
 streamlit.dataframe(my_data_rows)
 streamlit.text("Which fruit you would like to choose ?")
 
-my_cur.execute(" insert inot fruit load list values ('from streamlit')")
+my_cur.execute(" insert inot fruit_load_list values ('from streamlit')")
